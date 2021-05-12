@@ -31,9 +31,6 @@ This is to Run nginx using AWS infrastructure, using ansible to provision infras
 ### provisioning :<br/>
 * git clone https://github.com/raneenserhan/Ansible-Nginx.git
 * in the cmd enter: ansible-playbook -e @vars.yml main.yml
-* open browser with url = http://{instance.public.ip}
-  * example
- 
 
 ------------------------------------------------------------------------------------------------<br/>
 ### Versions:
