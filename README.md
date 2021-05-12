@@ -34,7 +34,8 @@ This is to Run nginx using AWS infrastructure, using ansible to provision infras
 ## Usage:<br/>
 ### provisioning :<br/>
 * git clone https://github.com/raneenserhan/Ansible-Nginx.git
-* in the cmd enter: ansible-playbook -e @vars.yml main.yml
+* in the cmd enter:<br/>
+  ansible-playbook -e @vars.yml main.yml
 
 ------------------------------------------------------------------------------------------------<br/>
 ### Versions:
