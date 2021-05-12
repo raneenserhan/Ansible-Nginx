@@ -20,10 +20,12 @@ This is to Run nginx using AWS infrastructure, using ansible to provision infras
   sudo apt install python3.8  
   * Allow the process to complete and verify the Python version was installed sucessfully:<br/>
   python3 ––version
-* install ansible<br/>
+* install ansible:<br/>
   apt install -y ansible
-* install Community AWS Collection<br/>
+* install Community AWS Collection:<br/>
   ansible-galaxy collection install community.aws
+* install boto<br/>
+  python3 -m pip install boto3
   
 ------------------------------------------------------------------------------------------------<br/>
 
