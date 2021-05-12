@@ -29,7 +29,7 @@ This is to Run nginx using AWS infrastructure, using ansible to provision infras
 
 ## Usage:<br/>
 ### provisioning :<br/>
-* git clone https://github.com/raneenserhan/WordPress-TF-AWS.git
+* git clone https://github.com/raneenserhan/Ansible-Nginx.git
 * in the cmd enter: ansible-playbook -e @vars.yml main.yml
 * open browser with url = http://{instance.public.ip}
   * example
