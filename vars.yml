@@ -1,0 +1,28 @@
+#vars/main.yml
+ 
+aws_access_key: ""
+aws_secret_key: ""
+region: "eu-west-1"
+ 
+# VPC
+vpc_cidr: 10.100.0.0/16
+vpc_name: "Ansible-VPC"
+ 
+# Subnet
+subnet_name: "Ansible Subnet"
+subnet_cidr: 10.100.0.0/24
+ 
+# Internet Gateway Name
+igw_name: "ansible-igw"
+
+#Route table
+route_name: "ansible-rt"
+
+#SG
+securitygroup_name: "ansible-sg"
+ 
+#EC2
+#ubuntu
+image: "ami-0a8e758f5e873d1c1"
+server_type: "t2.micro"
+keypair_name: "nginx_key_pair"
