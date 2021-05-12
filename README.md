@@ -22,6 +22,8 @@ This is to Run nginx using AWS infrastructure, using ansible to provision infras
   python3 ––version
 * install ansible:<br/>
   apt install -y ansible
+  * Allow the process to complete and verify the Python version was installed sucessfully:<br/>
+   ansible --version
 * install Community AWS Collection:<br/>
   ansible-galaxy collection install community.aws
 * install boto:<br/>
